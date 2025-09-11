@@ -1,0 +1,68 @@
+
+
+/* Basic page style resets */
+* {
+  box-sizing: border-box;
+}
+[hidden] {
+  display: none !important;
+}
+
+
+body{
+ background-color:lightblue;
+
+}
+
+.h1{
+text-align: center;
+}
+
+
+.container{
+ display: grid;
+  grid-template-columns: repeat(auto-fill,minmax(300px,300px));
+  gap:20px;
+  justify-content: center;
+
+
+}
+
+.card{
+  background:yellowgreen; 
+  height:500px;
+  padding:10px;
+  border-radius:10px;
+  box-shadow:0px 2px 4px rgba(0,0,0,0.7);
+  overflow:hidden;
+
+
+ 
+}
+
+h1 {
+  font-family: 'Courier New';
+}
+
+p{
+  font-family: 'Playfair Display', serif;
+
+}
+
+.card-container{ 
+    margin:px;
+    padding:0px;
+    box-sizing: border-box;
+    font-family:sans-serif;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top:100px;
+
+ }
+
+
+
+ }
+
+
