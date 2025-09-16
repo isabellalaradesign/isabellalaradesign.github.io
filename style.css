@@ -7,15 +7,32 @@
 [hidden] {
   display: none !important;
 }
-
-
 body{
- background-color:lightblue;
+ background-color:black;
+   cursor: url("https://i.postimg.cc/YSFLRFfW/small-miss-bug.png"), auto;
+padding-bottom: 15px;
+
+
+.points{
+color: white;
+  font-family: "Orbitron", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+}
+
+ul{
+list-style-position: inside;
+padding-left: 0;
+}
+
 
 }
 
 .h1{
 text-align: center;
+
+
 }
 
 
@@ -29,7 +46,7 @@ text-align: center;
 }
 
 .card{
-  background:yellowgreen; 
+  background:greenyellow;
   height:500px;
   padding:10px;
   border-radius:10px;
@@ -41,13 +58,38 @@ text-align: center;
 }
 
 h1 {
-  font-family: 'Courier New';
+  color: white;
+  font-family: "Sixtyfour", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-variation-settings:
+    "BLED" 0,
+    "SCAN" 0;
+    font-size:3em;
 }
+
+
+h2{
+  font-family: "Orbitron", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+}
+
+
+
+
 
 p{
-  font-family: 'Playfair Display', serif;
+  font-family: "Rajdhani", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+  font-size: medium;
 
 }
+
+
 
 .card-container{ 
     margin:px;
@@ -62,7 +104,22 @@ p{
  }
 
 
+.container{
+ display: grid;
+  grid-template-columns: repeat(auto-fill,minmax(300px,300px));
+  gap:20px;
+  justify-content: center;
 
  }
+
+.musicvideo{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+
+
+
+}
 
 
